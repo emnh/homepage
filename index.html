@@ -10,15 +10,18 @@
     <script src="javascripts/scale.fix.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <style>
+#projects > li {
+  padding-bottom: 5em;
+}
+  </style>
+
   </head>
   <body>
     <div class="wrapper">
       <header>
         <h1>Homepage</h1>
-        <p>My homepage</p>
+        <p>My Open Source Projects</p>
         <p class="view"><a href="https://github.com/emnh/homepage">View the Project on GitHub <small>emnh/homepage</small></a></p>
         <ul>
           <li><a href="https://github.com/emnh/homepage/zipball/master">Download <strong>ZIP File</strong></a></li>
@@ -26,8 +29,9 @@
           <li><a href="https://github.com/emnh/homepage">View On <strong>GitHub</strong></a></li>
         </ul>
       </header>
-      <section>
-        <h1>
+
+<section>
+<h1>
 <a id="welcome-to-my-home-page" class="anchor" href="#welcome-to-my-home-page" aria-hidden="true"><span class="octicon octicon-link"></span></a>Welcome to my home page</h1>
 
 <ul>
@@ -36,25 +40,60 @@
 </li>
 <li>GitHub: <a href="http://github.com/emnh/">GitHub</a>
 </li>
-<li>Bookmarks: <a href="https://delicious.com/emnh">Bookmarks</a>
+<li>Bookmarks: <a href="https://github.com/emnh/bookmarks">Bookmarks</a>
 </li>
-<li>Projects: <a href="projects.html">Projects</a>
-</li>
+<!--<li>Projects: <a href="projects.html">Projects</a></li>-->
 </ul>
 
 <h1>
-<a id="projects" class="anchor" href="#projects" aria-hidden="true"><span class="octicon octicon-link"></span></a>Projects</h1>
+<a id="projects" class="anchor" href="#projects" aria-hidden="true"><span class="octicon octicon-link"></span></a>GitHub Projects</h1>
 
-<ul>
-<li><a href="http://emnh.github.io/rts/">RTS</a></li>
+<p>
+  You can usually click the screenshot for a live demo.
+</p>
+<ul id="projects">
+  <li>
+    <h3>RTS: Real-Time Strategy in JavaScript and WebGL (Three.js)</h3>
+    <ul>
+      <li>
+        <a href="https://github.com/emnh/rts">Source at GitHub</a>
+      </li>
+    </ul>
+    <a href="http://emh.lart.no/publish/rts-free.git/">
+      <img src="images/rts.jpg" alt="RTS Screenshot"></img>
+    </a>
+  </li>
+  <li>
+    <h3>RTS-Blog: Blog about Real-Time Strategy in ClojureScript</h3>
+    <ul>
+      <li>
+        <a href="https://github.com/emnh/rts-blog">Source at GitHub</a>
+      </li>
+    </ul>
+    <a href="https://emnh.github.io/rts-blog/">
+      <img src="images/rts-blog.jpg" alt="RTS Screenshot"></img>
+    </a>
+  </li>
+  <li>
+    <h3>
+      RTS-ReasonML: Water and Forest Demo in ReasonML and WebGL(2)
+    </h3>
+    <ul>
+      <li>
+        <a href="https://github.com/emnh/rts-reasonml">Source at GitHub</a>
+      </li>
+    </ul>
+    <a href="https://emnh.github.io/rts-reasonml">
+      <img src="images/rts-reasonml.jpg" alt="RTS-ReasonML Screenshot"></img>
+    </a>
+  </li>
 </ul>
-      </section>
+</section>
+
     </div>
     <footer>
       <p>Project maintained by <a href="https://github.com/emnh">emnh</a></p>
       <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
     </footer>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
   </body>
 </html>
